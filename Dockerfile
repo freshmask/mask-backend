@@ -11,4 +11,5 @@ COPY Wording-Asuransi-Travel.pdf /document-wording/Wording-Asuransi-Travel.pdf
 
 COPY mask-0.0.1-SNAPSHOT.jar /app/app.jar
 EXPOSE 8080
+EXPOSE 587
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
